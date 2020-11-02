@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Youtube Mobile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8cc10ba7fd.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!-- Video player  -->
+    <section class="player">
+        <video controls src="video/food_video.mp4"></video>
+    </section>
+
+<!-- Infomation and UpNext -->
+    <div class="infoAndUpNext">
+        <!-- Info -->
+        <section class="info">
+            <!-- Metadata -->
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#GOFOODA</li>
+                    <li>#Kimchi</li>
+                    <li>#making</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp">
+                        GOFOODA App: Making a film for Cooking something Korean food on Youtube: JMT!! 김치찌개 만들기 레시피 공개 :) | 음식 못만든다? 선 클릭 후 고민!! 
+                    </span>
+                    <button class="moreBtn">
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
+                <span class="views">1K views 1 month ago</span>
+            </div>
+
+            <!-- Actions -->
+            <ul class="actions">
+                <li><button><i class="active fas fa-thumbs-up"></i><span>900</span></button></li>
+                <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+                <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
+                <li><button><i class="fas fa-plus"></i><span>Savs</span></button></li>
+                <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li>
+            </ul >
+            
+            <!-- Channel Discription -->
+            <div class="channel">
+                <div class="metadata">
+                    <img src="image/tae.JPG" alt="">
+                    <div class="info">
+                        <span class="name">GOFOODA by 신태양</span>
+                        <span class="subscribers"> 1K subscribers</span>
+                    </div>
+                </div>
+                <button class="subscribe">subscribe</button>
+            </div>
+        </section>        
+
+        <!-- UpNexet -->
+        <section class="upNext">
+            <span class="title">Up Next</span>
+            <ul>
+                <li class="item">
+                    <div class="img"><img src="image/1.png" alt=""></div>
+                    <div class="info">
+                        <div class="title">평생 써먹는 삼겹살 굽는 방법</div>
+                        <div class="name">고기남자 MeatMan</div>
+                        <div class="views">744M</div>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+
+                <li class="item">
+                    <div class="img"><img src="image/2.png" alt=""></div>
+                    <div class="info">
+                        <div class="title">수퍼 크리스피 삼겹살 : 이 정도면 팔아야 하는 거 아닌가 싶다... 초간단 초완벽 레시피 (Crispiest Pork Belly Ever)</div>
+                        <div class="name">육식맨</div>
+                        <div class="views">133M</div>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+
+                <li class="item">
+                    <div class="img"><img src="image/3.png" alt=""></div>
+                    <div class="info">
+                        <div class="title">[한국인의 밥상] *풀영상* 삼겹살, 참을 수 없는 세겹의 즐거움♡</div>
+                        <div class="name">KBS 다큐 [KBS Documentary]</div>
+                        <div class="views">78M</div>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+            </ul>
+        </section>
+    </div>
+    
+</body>
+</html>
+
